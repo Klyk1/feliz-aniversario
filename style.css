@@ -1,0 +1,123 @@
+@charset "UTF8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2? family= Charm:wght@700 & display=swap');
+/*font-family: 'Charm', cursive;*/
+
+
+@import url('https://fonts.googleapis.com/css2? family= Charm:wght@700 &família= Rancho & display=swap');
+/*font-family: 'Rancho', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/*font-family: 'Courgette', cursive;*/
+
+
+body {
+    background-color: pink;
+}
+
+header {
+    height: 100vh;
+    background-image: url(img/rosas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: rgb(215, 57, 139);
+    text-align: center;
+    backdrop-filter: blur(2px);
+
+}
+
+
+
+header > h1{
+    font-family: 'Rancho', cursive;
+    text-shadow: 1px 1px 2px rgb(215, 57, 139);
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(240, 248, 255, 0.583);
+
+}
+
+header > p {
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 220px;
+    background-color: rgba(240, 248, 255, 0.583);
+
+}
+
+h2 {
+    font-family: 'Charm', cursive;
+    padding-left: 20px;
+
+}
+
+p {
+    text-indent: 20px;
+    font-family: 'Courgette', cursive;
+    text-align: justify;
+    line-height: 2em;
+    padding: 0px 20px 0px 20px;
+}
+
+.imagem {
+    background-image: url(img/rosa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.ipe {
+    font-family: 'Charm', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+    color: burlywood;
+    padding: 20px;
+    height: 650px;
+    background-image: url(img/ipe-amarelo.jpg);
+    background-color: darkmagenta;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    background-image: url(img/bolo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+footer h3{
+    backdrop-filter: blur(3px);
+    font-family: 'Charm', cursive;
+    font-size: 1.5em;
+    color: rgb(137, 11, 11);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(72, 2, 2);
+    padding: 30px 0px 80px 0px;
+}
+
+footer p{
+    text-align: left;
+    color: white;
+    font-size: 1.3em;
+}
+.imagem:after {
+    content: " ";
+    width: 100%;
+    height: 450px;
+    z-index: 5;
+    background-image: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.733));
+    position: absolute;
+
+}
