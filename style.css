@@ -24,6 +24,10 @@ body {
     background-color: pink;
 }
 
+main {
+    max-width: 360px;
+}
+
 header {
     height: 100vh;
     background-image: url(img/rosas.jpg);
@@ -49,6 +53,7 @@ header > h1{
 
 header > p {
     font-family: 'Rancho', cursive;
+    font-size: 2em;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 220px;
@@ -58,6 +63,7 @@ header > p {
 
 h2 {
     font-family: 'Charm', cursive;
+    font-size: 2em;
     padding-left: 20px;
 
 }
@@ -65,9 +71,25 @@ h2 {
 p {
     text-indent: 20px;
     font-family: 'Courgette', cursive;
+    font-size: 2em;
     text-align: justify;
     line-height: 2em;
     padding: 0px 20px 0px 20px;
+}
+.video {
+    background-color: pink;
+    margin: 0px -5px 0px -5px;
+    padding: 10px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .imagem {
